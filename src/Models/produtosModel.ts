@@ -1,8 +1,9 @@
 import { Model } from '@nozbe/watermelondb'
 import { field, relation } from '@nozbe/watermelondb/decorators'
-import { listaDeComprasModel } from './listaDeComprasModel';
+import listaDeComprasModel from './listaDeComprasModel';
 
-export class produtos extends Model {
+export default class produtos extends Model {
+
     static table: 'produtos';
     static associations: {
         listaDeCompras: { type: 'belongs_to', key: 'listaDeCompra_id'}

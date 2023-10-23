@@ -12,7 +12,7 @@ export default function Home() {
             <View style={styles.title}>
                 <Title text='CodeShopping'></Title>
             </View>
-            <View>
+            <View style={{flexDirection: 'row', flex: 1, alignItems: 'center', justifyContent: 'center'}}>
                 <FormProd />
             </View>
         </View>

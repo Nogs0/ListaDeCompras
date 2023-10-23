@@ -11,7 +11,7 @@ export default function ButtonAdd({size, color}: ButtonAddProps){
     return(
         <View style={styles.container}>
             <Icon
-                name='basket-plus'
+                name='text-box-plus-outline'
                 size={size}
                 color={color}
 

@@ -6,14 +6,11 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
         flexDirection: 'row',        
         backgroundColor: '#B22222',
-        alignItems: 'center'
     },
     title: {
-        justifyContent: 'center'
-    },
-    body: {
-        flexDirection: 'row',
-        justifyContent: 'center'
+        alignItems: 'center',
+        justifyContent: 'center',
+        position: 'absolute'
     }
 })
 
