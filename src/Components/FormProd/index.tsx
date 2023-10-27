@@ -44,7 +44,7 @@ export default function FormProd() {
                     <Icon 
                         name='basket-plus'
                         size={40}
-                        color={'#FAD7A0'}
+                        color={'#F0E68C'}
                     />
                 </TouchableOpacity>
             </View>

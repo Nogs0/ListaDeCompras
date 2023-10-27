@@ -15,6 +15,7 @@ export default function ButtonAdd({size, color}: ButtonAddProps){
                 name='text-box-plus-outline'
                 size={size}
                 color={color}
+
             />  
         </View>
     )

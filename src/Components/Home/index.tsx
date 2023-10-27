@@ -9,9 +9,6 @@ export default function Home() {
 
     return (
         <View style={styles.home}>
-            <View style={styles.title}>
-                <Title text='CodeShopping'></Title>
-            </View>
             <View style={{flexDirection: 'row', flex: 1, alignItems: 'center', justifyContent: 'center'}}>
                 <FormProd />
             </View>

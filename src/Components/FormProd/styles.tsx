@@ -4,17 +4,18 @@ const styles = StyleSheet.create({
     container: {
         backgroundColor: '#FFE0B9',
         position: 'absolute',
-        width: '100%'
+        width: '100%',
+        height: 210
     },
     containerButton: {
-        alignItems: 'flex-end',
-        marginTop: 10
+        alignItems: 'flex-end'
+
     },
     button: {
         backgroundColor: '#800000',
         borderRadius: 30,
         alignItems: 'center',
-        width: 100
+        width: 120
     }
 })
 
